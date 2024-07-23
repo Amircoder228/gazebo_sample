@@ -67,14 +67,14 @@ set(offb_node_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(offb_node_SOURCE_PREFIX /home/amir/gazsimtest/ws/src/offb_node)
-  set(offb_node_DEVEL_PREFIX /home/amir/gazsimtest/ws/devel)
+  set(offb_node_SOURCE_PREFIX /home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node)
+  set(offb_node_DEVEL_PREFIX /home/amir/gazebo_sample/quadrotor_waypoint_sim/devel)
   set(offb_node_INSTALL_PREFIX "")
   set(offb_node_PREFIX ${offb_node_DEVEL_PREFIX})
 else()
   set(offb_node_SOURCE_PREFIX "")
   set(offb_node_DEVEL_PREFIX "")
-  set(offb_node_INSTALL_PREFIX /home/amir/gazsimtest/ws/install)
+  set(offb_node_INSTALL_PREFIX /home/amir/gazebo_sample/quadrotor_waypoint_sim/install)
   set(offb_node_PREFIX ${offb_node_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/amir/gazsimtest/ws/install/lib;/home/amir/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/amir/gazebo_sample/quadrotor_waypoint_sim/install/lib;/home/amir/gazsimtest/quadrotor_waypoint_sim/devel/lib;/home/amir/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

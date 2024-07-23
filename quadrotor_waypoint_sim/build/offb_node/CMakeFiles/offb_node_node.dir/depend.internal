@@ -9,7 +9,7 @@ offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o
  /home/amir/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/SetModeRequest.h
  /home/amir/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/SetModeResponse.h
  /home/amir/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/State.h
- /home/amir/gazsimtest/ws/src/offb_node/src/offb_node.cpp
+ /home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node/src/offb_node.cpp
  /opt/ros/noetic/include/geometry_msgs/Point.h
  /opt/ros/noetic/include/geometry_msgs/Pose.h
  /opt/ros/noetic/include/geometry_msgs/PoseStamped.h

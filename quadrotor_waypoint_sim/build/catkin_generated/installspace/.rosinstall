@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/amir/gazsimtest/ws/install/setup.sh
+    local-name: /home/amir/gazebo_sample/quadrotor_waypoint_sim/install/setup.sh

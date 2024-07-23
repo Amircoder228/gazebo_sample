@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amir/gazsimtest/ws/src/offb_node/src/offb_node.cpp" "/home/amir/gazsimtest/ws/build/offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o"
+  "/home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node/src/offb_node.cpp" "/home/amir/gazebo_sample/quadrotor_waypoint_sim/build/offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

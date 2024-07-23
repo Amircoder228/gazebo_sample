@@ -8,7 +8,7 @@ offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /home/amir/catkin_w
 offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /home/amir/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/SetModeRequest.h
 offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /home/amir/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/SetModeResponse.h
 offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /home/amir/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/State.h
-offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /home/amir/gazsimtest/ws/src/offb_node/src/offb_node.cpp
+offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node/src/offb_node.cpp
 offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/Point.h
 offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/Pose.h
 offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/PoseStamped.h

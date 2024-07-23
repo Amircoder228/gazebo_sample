@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/amir/gazsimtest/ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cc4ad/fast && /usr/bin/make -f CMakeFiles/cmTC_cc4ad.dir/build.make CMakeFiles/cmTC_cc4ad.dir/build
-make[1]: Entering directory '/home/amir/gazsimtest/ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cc4ad.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_cc4ad.dir/src.c.o   -c /home/amir/gazsimtest/ws/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_cc4ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc4ad.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_cc4ad.dir/src.c.o  -o cmTC_cc4ad 
-/usr/bin/ld: CMakeFiles/cmTC_cc4ad.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_efcd2/fast && /usr/bin/make -f CMakeFiles/cmTC_efcd2.dir/build.make CMakeFiles/cmTC_efcd2.dir/build
+make[1]: Entering directory '/home/amir/gazebo_sample/quadrotor_waypoint_sim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efcd2.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_efcd2.dir/src.c.o   -c /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_efcd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efcd2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_efcd2.dir/src.c.o  -o cmTC_efcd2 
+/usr/bin/ld: CMakeFiles/cmTC_efcd2.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_cc4ad.dir/build.make:87: cmTC_cc4ad] Error 1
-make[1]: Leaving directory '/home/amir/gazsimtest/ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_cc4ad/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_efcd2.dir/build.make:87: cmTC_efcd2] Error 1
+make[1]: Leaving directory '/home/amir/gazebo_sample/quadrotor_waypoint_sim/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_efcd2/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/amir/gazsimtest/ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_174ce/fast && /usr/bin/make -f CMakeFiles/cmTC_174ce.dir/build.make CMakeFiles/cmTC_174ce.dir/build
-make[1]: Entering directory '/home/amir/gazsimtest/ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_174ce.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_174ce.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_174ce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_174ce.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_174ce.dir/CheckFunctionExists.c.o  -o cmTC_174ce  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_94997/fast && /usr/bin/make -f CMakeFiles/cmTC_94997.dir/build.make CMakeFiles/cmTC_94997.dir/build
+make[1]: Entering directory '/home/amir/gazebo_sample/quadrotor_waypoint_sim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94997.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_94997.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94997
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94997.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_94997.dir/CheckFunctionExists.c.o  -o cmTC_94997  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_174ce.dir/build.make:87: cmTC_174ce] Error 1
-make[1]: Leaving directory '/home/amir/gazsimtest/ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_174ce/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_94997.dir/build.make:87: cmTC_94997] Error 1
+make[1]: Leaving directory '/home/amir/gazebo_sample/quadrotor_waypoint_sim/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_94997/fast] Error 2
 
 
 

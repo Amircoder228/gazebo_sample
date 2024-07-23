@@ -104,7 +104,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/amir/gazsimtest/ws/src/offb_node/src/offb_node.cpp
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node/src/offb_node.cpp
 ros/ros.h
 -
 geometry_msgs/PoseStamped.h

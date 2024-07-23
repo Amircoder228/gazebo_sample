@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/amir/gazsimtest/ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/amir/gazsimtest/ws/devel/lib:$LD_LIBRARY_PATH"
-export PWD='/home/amir/gazsimtest/ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/amir/gazsimtest/ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/amir/gazsimtest/ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/amir/gazebo_sample/quadrotor_waypoint_sim/build'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/amir/gazebo_sample/quadrotor_waypoint_sim/src:$ROS_PACKAGE_PATH"

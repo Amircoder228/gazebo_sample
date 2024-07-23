@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amir/gazsimtest/ws/src
+CMAKE_SOURCE_DIR = /home/amir/gazebo_sample/quadrotor_waypoint_sim/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amir/gazsimtest/ws/build
+CMAKE_BINARY_DIR = /home/amir/gazebo_sample/quadrotor_waypoint_sim/build
 
 # Include any dependencies generated for this target.
 include offb_node/CMakeFiles/offb_node_node.dir/depend.make
@@ -58,17 +58,17 @@ include offb_node/CMakeFiles/offb_node_node.dir/progress.make
 include offb_node/CMakeFiles/offb_node_node.dir/flags.make
 
 offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: offb_node/CMakeFiles/offb_node_node.dir/flags.make
-offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /home/amir/gazsimtest/ws/src/offb_node/src/offb_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/gazsimtest/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o"
-	cd /home/amir/gazsimtest/ws/build/offb_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o -c /home/amir/gazsimtest/ws/src/offb_node/src/offb_node.cpp
+offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o: /home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node/src/offb_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/gazebo_sample/quadrotor_waypoint_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o"
+	cd /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/offb_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o -c /home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node/src/offb_node.cpp
 
 offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/offb_node_node.dir/src/offb_node.cpp.i"
-	cd /home/amir/gazsimtest/ws/build/offb_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/gazsimtest/ws/src/offb_node/src/offb_node.cpp > CMakeFiles/offb_node_node.dir/src/offb_node.cpp.i
+	cd /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/offb_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node/src/offb_node.cpp > CMakeFiles/offb_node_node.dir/src/offb_node.cpp.i
 
 offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/offb_node_node.dir/src/offb_node.cpp.s"
-	cd /home/amir/gazsimtest/ws/build/offb_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/gazsimtest/ws/src/offb_node/src/offb_node.cpp -o CMakeFiles/offb_node_node.dir/src/offb_node.cpp.s
+	cd /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/offb_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node/src/offb_node.cpp -o CMakeFiles/offb_node_node.dir/src/offb_node.cpp.s
 
 # Object files for target offb_node_node
 offb_node_node_OBJECTS = \
@@ -77,39 +77,39 @@ offb_node_node_OBJECTS = \
 # External object files for target offb_node_node
 offb_node_node_EXTERNAL_OBJECTS =
 
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: offb_node/CMakeFiles/offb_node_node.dir/build.make
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/libroscpp.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/librosconsole.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/librostime.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node: offb_node/CMakeFiles/offb_node_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amir/gazsimtest/ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node"
-	cd /home/amir/gazsimtest/ws/build/offb_node && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/offb_node_node.dir/link.txt --verbose=$(VERBOSE)
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: offb_node/CMakeFiles/offb_node_node.dir/src/offb_node.cpp.o
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: offb_node/CMakeFiles/offb_node_node.dir/build.make
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/libroscpp.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/librosconsole.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/librostime.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /opt/ros/noetic/lib/libcpp_common.so
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node: offb_node/CMakeFiles/offb_node_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amir/gazebo_sample/quadrotor_waypoint_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node"
+	cd /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/offb_node && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/offb_node_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-offb_node/CMakeFiles/offb_node_node.dir/build: /home/amir/gazsimtest/ws/devel/lib/offb_node/offb_node_node
+offb_node/CMakeFiles/offb_node_node.dir/build: /home/amir/gazebo_sample/quadrotor_waypoint_sim/devel/lib/offb_node/offb_node_node
 
 .PHONY : offb_node/CMakeFiles/offb_node_node.dir/build
 
 offb_node/CMakeFiles/offb_node_node.dir/clean:
-	cd /home/amir/gazsimtest/ws/build/offb_node && $(CMAKE_COMMAND) -P CMakeFiles/offb_node_node.dir/cmake_clean.cmake
+	cd /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/offb_node && $(CMAKE_COMMAND) -P CMakeFiles/offb_node_node.dir/cmake_clean.cmake
 .PHONY : offb_node/CMakeFiles/offb_node_node.dir/clean
 
 offb_node/CMakeFiles/offb_node_node.dir/depend:
-	cd /home/amir/gazsimtest/ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/gazsimtest/ws/src /home/amir/gazsimtest/ws/src/offb_node /home/amir/gazsimtest/ws/build /home/amir/gazsimtest/ws/build/offb_node /home/amir/gazsimtest/ws/build/offb_node/CMakeFiles/offb_node_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amir/gazebo_sample/quadrotor_waypoint_sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amir/gazebo_sample/quadrotor_waypoint_sim/src /home/amir/gazebo_sample/quadrotor_waypoint_sim/src/offb_node /home/amir/gazebo_sample/quadrotor_waypoint_sim/build /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/offb_node /home/amir/gazebo_sample/quadrotor_waypoint_sim/build/offb_node/CMakeFiles/offb_node_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : offb_node/CMakeFiles/offb_node_node.dir/depend
 

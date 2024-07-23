@@ -1,4 +1,4 @@
-prefix=/home/amir/gazsimtest/ws/devel
+prefix=/home/amir/gazebo_sample/quadrotor_waypoint_sim/devel
 
 Name: offb_node
 Description: Description of offb_node
