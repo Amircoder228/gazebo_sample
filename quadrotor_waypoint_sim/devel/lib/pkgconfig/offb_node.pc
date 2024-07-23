@@ -1,0 +1,8 @@
+prefix=/home/amir/gazsimtest/ws/devel
+
+Name: offb_node
+Description: Description of offb_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs mavros_msgs
