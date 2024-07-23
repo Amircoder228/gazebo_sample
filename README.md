@@ -13,7 +13,7 @@ To run the simulation, the following dependencies need to be installed:
 
         bash ./PX4-Autopilot/Tools/setup/ubuntu.sh --no-sim-tools --no-nuttx
 3. Restart the computer on completion.
-## INstall ros noetic
+## Install ros noetic
 1. Setup your sources.list
 
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -92,4 +92,25 @@ Then install GeographicLib datasets.
         sudo apt-get install protobuf-compiler libeigen3-dev libopencv-dev -y libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly -y
 
 ## Run Simulation
+1. clone repository.
 
+        git clone https://github.com/Amircoder228/gazebo_sample.git
+
+2. Launch `mavros` with the specified FCU URL.
+
+        roslaunch mavros px4.launch fcu_url:=udp://:14540@127.0.0.1:14557
+
+3. in second terminal Run the `PX4` simulation.
+
+        make px4_sitl_default gazebo
+        
+4. cd to workspase.
+
+        cd gazebo_sample
+5. Build workspace and source the setup file.
+
+        catkin_make
+        source devel/setup.bash
+6. in therd terminal Run custom ROS node such as `offb_node`.
+
+        rosrun offb_node offb_node_node 
